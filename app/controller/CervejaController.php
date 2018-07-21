@@ -11,9 +11,9 @@ class CervejaController {
         echo $cerveja->getNome();
     }
 
-    public function actionTeste()
+    public function actionCadastrar()
     {
-        echo "Teste";
+        include_once "../resource/view/template.php";
     }
 
 }
