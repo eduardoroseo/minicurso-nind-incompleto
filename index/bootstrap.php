@@ -1,6 +1,8 @@
 <?php
 
+importarClasses('../services');
 importarClasses("../app/model");
+importarClasses("../app/dao");
 importarClasses("../app/controller");
 
 $urlCompleta = $_GET['url'];
